@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-70h5d_(8!xrxb=9q2-zw#2x0n58v!*bd)d((^ao+)kw!w)oip3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["muvadplaybox.com", "www.muvadplaybox.com"]
+ALLOWED_HOSTS = ["muvadplaybox.com", "www.muvadplaybox.com","*"]
 
 
 
