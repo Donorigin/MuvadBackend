@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'message',
     'blog',
     'corsheaders',
+
 ]
 
 MIDDLEWARE = [
@@ -84,10 +85,21 @@ WSGI_APPLICATION = 'MuvadBack.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'muvapoxi_MuvadBackend',
+        'USER': 'muvapoxi_backend',
+        'PASSWORD': 'Muvad@2024Ragolis',
+        'HOST': 'localhost',  # or IP
+        # 'PORT': '3306',
     }
 }
 
