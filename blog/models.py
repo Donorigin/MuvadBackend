@@ -6,7 +6,12 @@ from django.db import models
 
 class Blog(models.Model):
     CATEGORY_CHOICES = [
-        ('estimating', 'Estimating'),
+        ('Cleaning', 'Cleaning'),
+        ("Drywall","Drywall"),
+        ("Painting","Painting"),
+        ("Concrete","Concrete"),
+        ("Roofing","Roofing"),
+        ("Stucco","Stucco"),
         # Add more categories as needed
     ]
 
