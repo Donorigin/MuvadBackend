@@ -11,7 +11,7 @@ class Blog(models.Model):
         ("Painting","Painting"),
         ("Concrete","Concrete"),
         ("Roofing","Roofing"),
-        ("Stucco","Stucco"),
+        ("Stucco","Stucco")
         # Add more categories as needed
     ]
 
